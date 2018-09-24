@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Wrapper from './App';
 
-ReactDOM.render(<App txt="words" cat={5} />, document.getElementById('root'));
+ReactDOM.render(<Wrapper />, document.getElementById('root'));
